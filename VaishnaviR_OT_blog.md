@@ -190,7 +190,7 @@ The SGD optimizer in TensorFlow implements the **Stochastic Gradient Descent (SG
 
 ## **3. Implementing SGD with Momentum**
 
-### **3.1 SGD with Momentum?**
+### **3.1 What is SGD with Momentum?**
 Stochastic Gradient Descent (SGD) with Momentum is an optimization algorithm that enhances standard SGD by incorporating a velocity term. This momentum term helps accelerate convergence by allowing the optimizer to maintain some of its previous movement, thereby smoothing out updates and reducing oscillations in the optimization path.
 
 ### **3.2 How Does It Work?**
