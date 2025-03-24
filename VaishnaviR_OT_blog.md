@@ -227,16 +227,12 @@ class SGDWithMomentum:
 ### **3.4 Explanation**
 
 The `SGDWithMomentum` class is initialized with two main hyperparameters: 
-
-- `learning_rate`, which controls the step size for parameter updates, 
-- `momentum`, which determines how much of the previous update is retained to smooth optimization.
+ `learning_rate`, which controls the step size for parameter updates, and `momentum`, which determines how much of the previous update is retained to smooth optimization.
 
 Additionally, `self.velocity` is a dictionary used to store the momentum for each parameter.
 
 The `update` method takes in two arguments: 
-
-- `params`, a dictionary of model parameters,
-- `grads`, a dictionary of gradients with respect to the loss function.
+`params`, a dictionary of model parameters, and `grads`, a dictionary of gradients with respect to the loss function.
 
 For each parameter, if the velocity is not initialized, it is set to zero. The velocity is then updated using the formula:
 
