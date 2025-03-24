@@ -201,7 +201,7 @@ SGD with Momentum maintains a moving average of past gradients to influence the 
 
 This mechanism allows the optimizer to continue moving in directions of consistent descent, reducing fluctuations and improving convergence speed.
 
-### **3.3 Adam Implementation from scatch**
+### **3.3 SGD with momentum Implementation from scatch**
 
 ```python
 import numpy as np
