@@ -1,5 +1,7 @@
-# **Understanding Optimization Algorithms: From Scratch to Practice**
+# **Optimization Techniques: A Practical Guide**
 
+*By, Vaishnavi R Saralaya, Sabha Ambrin* 
+*Date*: [24-03-2025]
 In this blog we’ll explore three popular optimization algorithms—**Stochastic Gradient Descent (SGD)**, **Adam**, and **RMSProp**—and implement them from scratch. We’ll also implement the optimizers using TensorFlow to see how they perform. 
 
 ## **1. What Are Optimization Algorithms?**
